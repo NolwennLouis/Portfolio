@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prénom Nom — Character Design, Illustration, Animation 2D</title>
+  <meta name="description" content="Portfolio de Prénom Nom, étudiant en BUT MMI, orienté character design, illustration et animation 2D. Actuellement à la recherche d'un stage." />
+  <meta property="og:title" content="Prénom Nom — Character Design, Illustration, Animation 2D" />
+  <meta property="og:description" content="Portfolio de Prénom Nom — character design, illustration, animation 2D." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header container">
+    <a class="logo" href="index.html" data-about="name">Prénom Nom</a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list" hidden>Menu</button>
+      <ul id="nav-list">
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-bg" data-hero-bg aria-hidden="true"></div>
+      <div class="container">
+      <p class="hero-kicker" data-about="status">Étudiante en BUT MMI Création numérique</p>
+
+      <h1 class="hero-title" data-about-tagline aria-label="Character Design, Illustration, 2D Animation">
+        <span>Character Design</span>
+        <span>2D Animation</span>
+      </h1>
+
+      <div class="hero-meta">
+        <p>
+          <strong data-about="internshipNote">Actuellement à la recherche d'un stage</strong>
+          <br>dans un studio d'animation.
+        </p>
+        <a class="button" href="work.html">Voir le portfolio</a>
+      </div>
+      </div>
+    </section>
+
+    <section class="container" aria-label="Sélection d'œuvres">
+      <div class="gallery" data-gallery data-featured-only></div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> <span data-about="name">Prénom Nom</span></p>
+    <ul data-about-links></ul>
+    <a href="mailto:" data-about-email-link>email</a>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="works.js"></script>
+  <script src="about.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

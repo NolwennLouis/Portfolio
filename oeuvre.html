@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Œuvre — Prénom Nom</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header container">
+    <a class="logo" href="index.html" data-about="name">Prénom Nom</a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container" data-artwork-page>
+    <div class="artwork-header">
+      <p class="eyebrow" data-artwork-category></p>
+      <h1 data-artwork-title></h1>
+      <dl class="artwork-meta">
+        <div><dt>Outils —</dt> <dd data-artwork-tools></dd></div>
+      </dl>
+      <p class="artwork-description" data-artwork-description></p>
+    </div>
+
+    <div class="artwork-media" data-artwork-media></div>
+
+    <nav class="artwork-nav" aria-label="Œuvre précédente ou suivante">
+      <a href="work.html" data-artwork-prev>← Précédent</a>
+      <a href="work.html" data-artwork-next>Suivant →</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> <span data-about="name">Prénom Nom</span></p>
+    <ul data-about-links></ul>
+    <a href="mailto:" data-about-email-link>email</a>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="works.js"></script>
+  <script src="about.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

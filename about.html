@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About — Prénom Nom</title>
+  <meta name="description" content="À propos de Prénom Nom, étudiant en BUT MMI, character designer et illustrateur à la recherche d'un stage." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header container">
+    <a class="logo" href="index.html" data-about="name">Prénom Nom</a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="about.html" aria-current="page">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container about-layout">
+    <div class="about-text">
+      <h1 data-about="name">Prénom Nom</h1>
+      <div data-about-bio>
+        <p>Présentation à venir.</p>
+      </div>
+    </div>
+
+    <aside class="about-side">
+      <dl>
+        <div class="row"><dt>Formation</dt><dd data-about="status">BUT MMI · Création numérique</dd></div>
+        <div class="row"><dt>Recherche</dt><dd data-about="internshipNote">Stage</dd></div>
+        <div class="row"><dt>Logiciels</dt><dd data-about-softwares></dd></div>
+        <div class="row"><dt>Email</dt><dd><a href="mailto:" data-about-email-link>email</a></dd></div>
+      </dl>
+      <ul data-about-links style="margin-top: 1.5rem; display:flex; gap:1.25rem; font-size: 0.9rem;"></ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> <span data-about="name">Prénom Nom</span></p>
+    <ul data-about-links></ul>
+    <a href="mailto:" data-about-email-link>email</a>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="works.js"></script>
+  <script src="about.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Work — Prénom Nom</title>
+  <meta name="description" content="Portfolio complet : character design, illustration, animation 2D, storyboard, sketchbook et autres projets." />
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header container">
+    <a class="logo" href="index.html" data-about="name">Prénom Nom</a>
+    <nav class="site-nav" aria-label="Navigation principale">
+      <ul>
+        <li><a href="work.html" aria-current="page">Work</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="page-title">Work</h1>
+
+    <div class="filters" role="group" aria-label="Filtrer par catégorie">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="character-design" aria-pressed="false">Character Design</button>
+      <button type="button" data-filter="animation" aria-pressed="false">Animation</button>
+      <button type="button" data-filter="storyboard" aria-pressed="false">Storyboard</button>
+      <button type="button" data-filter="sketchbook" aria-pressed="false">Sketchbook</button>
+      <button type="button" data-filter="other" aria-pressed="false">Other</button>
+    </div>
+
+    <div id="sketchbook"></div>
+    <div class="gallery" data-gallery></div>
+  </main>
+
+  <footer class="site-footer container">
+    <p>&copy; <span id="year"></span> <span data-about="name">Prénom Nom</span></p>
+    <ul data-about-links></ul>
+    <a href="mailto:" data-about-email-link>email</a>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="works.js"></script>
+  <script src="about.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
