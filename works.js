@@ -113,6 +113,34 @@ const WORKS = [
     ]
   },
   {
+    id: "storyboard3",
+    title: "Pub1",
+    category: "storyboard",
+    year: "2026",
+    tools: ["Krita"],
+    description:
+      "Réalisation d'un storyboard pour une pub dans le cadre d'un projet de cours. J'ai réalisé l'entiereté du storyboard et participé à l'écriture du scénario",
+    type: "image",
+    media: "images/pub1.png",
+    featured: false,
+    gallery: [
+      { src: "images/pub1.png", caption: "Partie1" },
+      { src: "images/pub2.png", caption: "Partie2" }
+    ]
+  },
+  {
+    id: "storyboard4",
+    title: "Pub2",
+    category: "storyboard",
+    year: "2026",
+    tools: ["Krita"],
+    description:
+      "Réalisation d'un storyboard pour une pub dans le cadre d'un projet de cours. J'ai réalisé l'entiereté du storyboard",
+    type: "image",
+    media: "images/pub3.png",
+    featured: false
+  },
+  {
     id: "animation-02",
     title: "cycle de marche",
     category: "animation",
