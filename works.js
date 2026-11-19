@@ -180,6 +180,19 @@ const WORKS = [
     featured: true
   },
   {
+    id: "animation-06",
+    title: "Générique de fin",
+    category: "animation",
+    year: "2025",
+    tools: ["Adobe Illustrator", "After Effects"],
+    description:
+      "Générique de fin du court-métrage Alibi. Retrouvez la page du court-métrage ici : ",
+    type: "video",
+    media: "videos/generiqueFinAlibi.mp4",
+    poster: "images/generiqueFin.png",
+    featured: true
+  },
+  {
     id: "other-01",
     title: "Court métrage",
     category: "other",
