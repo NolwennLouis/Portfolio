@@ -189,7 +189,7 @@ const WORKS = [
       "Générique de fin du court-métrage Alibi. Retrouvez la page du court-métrage ici : https://portfolio-nolwennlouis.netlify.app/oeuvre.html?id=other-01",
     type: "video",
     media: "videos/generiqueFinAlibi.mp4",
-    poster: "images/generiqueFin.png",
+    poster: "images/minia-Alibi2.png",
     featured: true
   },
   {
