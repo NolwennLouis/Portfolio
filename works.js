@@ -186,7 +186,7 @@ const WORKS = [
     year: "2025",
     tools: ["Adobe Illustrator", "After Effects"],
     description:
-      "Générique de fin du court-métrage Alibi. Retrouvez la page du court-métrage ici : ",
+      "Générique de fin du court-métrage Alibi. Retrouvez la page du court-métrage ici : https://portfolio-nolwennlouis.netlify.app/oeuvre.html?id=other-01",
     type: "video",
     media: "videos/generiqueFinAlibi.mp4",
     poster: "images/generiqueFin.png",
