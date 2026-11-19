@@ -258,6 +258,26 @@ const WORKS = [
     featured: false
   },
   {
+    id: "other-08",
+    title: "Video Game",
+    category: "other",
+    year: "2026",
+    tools: ["Genially, Krita"],
+    description:
+      "Réalisation d'un jeu vidéo dans le cadre d'un projet de cours. J'ai participé à l'écriture du scénario et à la réalisation des assets pour certains objets. J'ai réalisé l'entièreté des assets pour les personnages. Lien vers le jeu : https://imt.genially.com/6afc4c50e883cf99a32e99c2",
+    type: "image",
+    media: "images/minia-360.png",
+    featured: true,
+    gallery: [
+      { src: "images/repentance-09.png", caption: "Assets de personnages" },
+      { src: "images/repentance-08.png", caption: "Assets d'objets" },
+      { src: "images/repentance-04.png", caption: "Capture du jeu" },
+      { src: "images/repentance-05.png", caption: "Capture du jeu" },
+      { src: "images/repentance-06.png", caption: "Capture du jeu" },
+      { src: "images/repentance-07.png", caption: "Capture du jeu" }
+    ]
+  },
+  {
     id: "sketchbook-02",
     title: "Pages de carnet",
     category: ["sketchbook","character-design"],
@@ -421,7 +441,40 @@ const WORKS = [
     type: "image",
     media: "images/sketchbook-16.jpg",
     featured: false
-  }
+  },
+  {
+    id: "repentance-01",
+    title: "Game character",
+    category: "character-design",
+    year: "2026",
+    tools: ["Krita"],
+    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : ",
+    type: "image",
+    media: "images/repentance-01.png",
+    featured: true
+  },
+  {
+    id: "repentance-02",
+    title: "Game character",
+    category: "character-design",
+    year: "2026",
+    tools: ["Krita"],
+    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : ",
+    type: "image",
+    media: "images/repentance-02.png",
+    featured: true
+  },
+  {
+    id: "repentance-03",
+    title: "Game character",
+    category: "character-design",
+    year: "2026",
+    tools: ["Krita"],
+    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : ",
+    type: "image",
+    media: "images/repentance-03.png",
+    featured: true
+  },
 ];
 
 /* Ne modifie rien en dessous de cette ligne : cette partie exporte
