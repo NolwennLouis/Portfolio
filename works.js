@@ -266,7 +266,7 @@ const WORKS = [
     description:
       "Réalisation d'un jeu vidéo dans le cadre d'un projet de cours. J'ai participé à l'écriture du scénario et à la réalisation des assets pour certains objets. J'ai réalisé l'entièreté des assets pour les personnages. Lien vers le jeu : https://imt.genially.com/6afc4c50e883cf99a32e99c2",
     type: "image",
-    media: "images/minia-360.png",
+    media: "images/repentance-04.png",
     featured: true,
     gallery: [
       { src: "images/repentance-09.png", caption: "Assets de personnages" },
@@ -448,7 +448,7 @@ const WORKS = [
     category: "character-design",
     year: "2026",
     tools: ["Krita"],
-    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : ",
+    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : https://portfolio-nolwennlouis.netlify.app/oeuvre.html?id=other-08 ",
     type: "image",
     media: "images/repentance-01.png",
     featured: true
@@ -459,7 +459,7 @@ const WORKS = [
     category: "character-design",
     year: "2026",
     tools: ["Krita"],
-    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : ",
+    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : https://portfolio-nolwennlouis.netlify.app/oeuvre.html?id=other-08",
     type: "image",
     media: "images/repentance-02.png",
     featured: true
@@ -470,7 +470,7 @@ const WORKS = [
     category: "character-design",
     year: "2026",
     tools: ["Krita"],
-    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : ",
+    description: "Character design pour un personnage du jeu Repentance. Lien vers la page du jeu : https://portfolio-nolwennlouis.netlify.app/oeuvre.html?id=other-08 ",
     type: "image",
     media: "images/repentance-03.png",
     featured: true
