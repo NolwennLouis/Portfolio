@@ -260,7 +260,7 @@ const WORKS = [
   {
     id: "other-08",
     title: "Video Game",
-    category: "other",
+    category: ["other","character-design"],
     year: "2026",
     tools: ["Genially, Krita"],
     description:
